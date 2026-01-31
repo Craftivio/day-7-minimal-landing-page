@@ -1,0 +1,247 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: "Georgia", "Times New Roman", serif;
+    background-color: #b9a89a;
+    padding: 40px;
+}
+
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+    background-color: #efeee9;
+    padding: 40px 60px 80px;
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 60px;
+}
+
+.logo {
+    font-size: 18px;
+    letter-spacing: 2px;
+    color: #333;
+}
+
+.nav-links {
+    display: flex;
+    gap: 30px;
+}
+
+.nav-links li {
+    list-style: none;
+}
+
+.nav-links a {
+    text-decoration: none;
+    font-size: 12px;
+    letter-spacing: 2px;
+    color: #444;
+}
+
+.nav-links a:hover {
+    color: #000;
+}
+
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 60px;
+}
+
+
+.hero-image img {
+    width: 100%;
+    max-width: 380px;
+    border-radius: 4px;
+    display: block;
+}
+
+
+.hero-image:first-child {
+    margin-top: -40px;
+}
+
+
+.hero-image:last-child {
+    margin-top: 90px;
+}
+
+
+.hero-text {
+    text-align: center;
+    margin-top: 40px;
+    min-width: 220px;
+}
+
+.hero-text h1 {
+    font-size: 48px;
+    font-weight: 400;
+    letter-spacing: 6px;
+    line-height: 1.1;
+    color: #222;
+    margin-bottom: 12px;
+}
+
+.hero-text p {
+    font-size: 12px;
+    letter-spacing: 2px;
+    color: #666;
+}
+
+    .hero-text {
+        margin: 30px 0;
+    }
+
+       
+        .about {
+            display: flex;
+            gap: 80px;
+            padding: 80px 0;
+            border-top: 1px solid #ccc;
+        }
+    
+        .about-left {
+            flex: 1;
+        }
+    
+        .about-left h3 {
+            font-size: 14px;
+            letter-spacing: 2px;
+            margin-bottom: 20px;
+            color: #333;
+        }
+    
+        .about-main {
+            font-size: 18px;
+            line-height: 1.6;
+            margin-bottom: 20px;
+            color: #222;
+        }
+    
+        .about-sub {
+            font-size: 13px;
+            line-height: 1.7;
+            color: #666;
+            margin-bottom: 30px;
+        }
+    
+        .about-btn {
+            display: inline-block;
+            padding: 8px 20px;
+            border: 1px solid #333;
+            font-size: 12px;
+            letter-spacing: 2px;
+            text-decoration: none;
+            color: #333;
+        }
+    
+        .about-btn:hover {
+            background-color: #333;
+            color: #fff;
+        }
+    
+        .about-right {
+            flex: 1;
+            font-size: 13px;
+            line-height: 1.8;
+            color: #555;
+        }
+    
+   
+        .gallery {
+            display: flex;
+            gap: 30px;
+            padding-bottom: 80px;
+        }
+    
+        .gallery-item {
+            flex: 1;
+        }
+    
+        .gallery-item img {
+            width: 100%;
+            border-radius: 4px;
+            margin-bottom: 10px;
+        }
+    
+        .gallery-item p {
+            font-size: 11px;
+            letter-spacing: 1.5px;
+            color: #555;
+        }
+
+        @media (max-width: 900px) {
+            .about {
+                flex-direction: column;
+            }
+    
+            .gallery {
+                flex-direction: column;
+            }
+        }
+
+             
+                .footer {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: flex-start;
+                    padding: 60px 0 20px;
+                    border-top: 1px solid #ccc;
+                }
+        
+                .footer-left h4 {
+                    font-size: 16px;
+                    letter-spacing: 2px;
+                    margin-bottom: 10px;
+                    color: #222;
+                }
+        
+                .footer-left p {
+                    font-size: 12px;
+                    line-height: 1.7;
+                    color: #666;
+                }
+        
+                .footer-right ul {
+                    list-style: none;
+                    display: flex;
+                    gap: 20px;
+                }
+        
+                .footer-right a {
+                    text-decoration: none;
+                    font-size: 12px;
+                    letter-spacing: 1.5px;
+                    color: #444;
+                }
+        
+                .footer-right a:hover {
+                    color: #000;
+                }
+        
+ 
+                @media (max-width: 768px) {
+                    .footer {
+                        flex-direction: column;
+                        gap: 30px;
+                    }
+        
+                    .footer-right ul {
+                        flex-direction: column;
+                        gap: 10px;
+                    }
+                }
